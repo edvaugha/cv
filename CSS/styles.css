@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento';
+  font-size: 5.625em;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #11999E;
+}
+
+hr {
+  border-top-style: dotted;
+  border-width: 7px 0 0 0;
+  width: 5%;
+  margin: auto;
+  color: #c7c7c7;
+  clear: both;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+/*--------Class CSS Rules----------*/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bio-text {
+  line-height: 2;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 35%;
+  margin: 0 auto 100px auto;
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skills {
+  margin: 100px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  overflow: auto;
+  margin: 50px auto;
+  text-align: left;
+  clear: both;
+}
+
+.skill-image-1 {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-2 {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 12px;
+  color: #EAF6F6;
+  position: relative;
+  top: 30px;
+  background: #EAF6F6;
+  background-image: linear-gradient(rgba(102, 191, 191, .5), rgba(102, 191, 191, 1));
+}
+
+.btn:hover {
+  background: #EAF6F6;
+  background-image: linear-gradient(rgba(102, 191, 191, 1), rgba(102, 191, 191, .5));
+}
